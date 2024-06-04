@@ -26,7 +26,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api", playlistRoutes);
 
 let PORT=8000;
-app.listen(8080, "0.0.0.0", ()=>{
+app.listen(8000, "0.0.0.0", ()=>{
     console.log(`server connected at port at ${PORT}`)
 })
 
